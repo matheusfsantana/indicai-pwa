@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "url": "https://images.unsplash.com/photo-1678297518189-4e947373331f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    "categoria": "Alimentacao",
+    "local": "Restaurante Escola Senac - Av. Visc. de Suassuna, 500 - Santo Amaro, Recife - PE, 50050-540",
+    "descricao": "Bolinho de cenoura com uvas"
+  },
+  {
+    "id": 2,
+    "url": "https://images.unsplash.com/photo-1677624074617-1fb59d973155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    "categoria": "Alimentacao",
+    "local": "Restaurante Escola Senac - Av. Visc. de Suassuna, 500 - Santo Amaro, Recife - PE, 50050-540",
+    "descricao": "Sorvete de café matinal"
+  },
+  {
+    "id": 3,
+    "url": "https://images.unsplash.com/photo-1677414283794-677bdf6dc6c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "categoria": "Alimentacao",
+    "local": "Restaurante Escola Senac - Av. Visc. de Suassuna, 500 - Santo Amaro, Recife - PE, 50050-540",
+    "descricao": "Almoço vegano"
+  },
+  {
+    "id": 4,
+    "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+    "categoria": "Natureza",
+    "local": "Nova Cruz, Igarassu - PE",
+    "descricao": "Praia exuberante localizada no coração histórico do Brasil"
+  },
+  {
+    "id": 5,
+    "url": "https://images.unsplash.com/photo-1520454974749-611b7248ffdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "categoria": "Natureza",
+    "local": "Nova Cruz, Igarassu - PE",
+    "descricao": "Lindos coqueiros à luz do sol da tarde"
+  },
+  {
+    "id": 6,
+    "url": "https://images.unsplash.com/photo-1621945956653-54642cf7b301?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    "categoria": "Foto de rua",
+    "local": "Ruas em Olinda - Pernambuco",
+    "descricao": "A hitória da cidade de Olinda sendo registrada em foto no período vespertino"
+  },
+  {
+    "id": 7,
+    "url": "https://images.unsplash.com/photo-1588692043397-6c48a959b935?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVybmFtYnVjb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "categoria": "Foto de rua",
+    "local": "Marco Zero - Recife Antigo",
+    "descricao": "Coração e centro da cidade do Recife"
+  },
+  {
+    "id": 8,
+    "url": "https://images.unsplash.com/photo-1583214552082-dff0bb815203?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVybmFtYnVjb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "categoria": "Foto de rua",
+    "local": "Olinda - PE",
+    "descricao": "Olinda marcada por belas paisagens e rica história"
+  },
+  {
+    "id": 9,
+    "url": "https://images.unsplash.com/photo-1653340608563-2cc79e10f91d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80",
+    "categoria": "Foto de rua",
+    "local": "Centro do Recife",
+    "descricao": "Recife e suas lindas paisagens com o mar"
+  },
+  {
+    "id": 10,
+    "url": "https://images.unsplash.com/photo-1658044552345-df3ea485f77f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1229&q=80",
+    "categoria": "Foto de rua",
+    "local": "Marco zero",
+    "descricao": "Ponto turístico da cidade comtemplado com monumentos artísticos"
+  }
+]
