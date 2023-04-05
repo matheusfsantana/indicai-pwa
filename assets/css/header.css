@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--main-color);
+  height: 170px;
+
+  
+}
+
+.header .header-row1 {
+  margin-top: 30px;
+}
+
