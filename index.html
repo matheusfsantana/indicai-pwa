@@ -22,17 +22,18 @@
           <img src="./assets/img/logo-home.png" alt="logotipo foto senac" width="170px">
         </div>
 
-        <div class="col-4 d-flex justify-content-center text-light">
-          <p>Recife, PE</p>
+        <div class="col-4 d-flex justify-content-center text-light mt-3">
+          <p>Recife, PE  <i class="fa-solid fa-location-dot fa-xs" style="color: #0a0a0a;"></i></p>
+          
         </div>
       </div>
 
       <div class="container mb-2">
-        <div class="col-11 input-group">
-          <span class="input-group-text bg-white ">
-            <i class="fa-solid fa-magnifying-glass"></i>         
-          </span>
-          <input class="form-control" type="text" placeholder="Insira sua pesquisa aqui" aria-label="default input example">
+        <div class="col-12 input-group bg-white rounded-pill">
+          <div class="input-group-prepend">
+            <button class="btn border-right" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <input class="form-control border-0" type="text" placeholder="Insira sua pesquisa aqui" aria-label="default input example">
         </div>
       </div>
   </header>
@@ -45,6 +46,28 @@
   </div>
 
   <div class="container mt-4" id="card-list">
+    <div class="col-12 mb-4 mt-2 card-custom" id="card-1">
+      <div class="img-div">
+        <img src="./assets/img/teste1.png" alt="recife antigo">
+      </div>
+
+      <div class="row mt-2 info-div">
+        <div class="col-10 list-info">
+          <div class="p-1 card-info" id="categorias">
+            <p>Categorias: Foto de Rua</p>
+          </div>
+
+          <div class="p-1 card-info" id="local">
+            <p>Recife, PE</p>
+          </div>
+        </div>
+  
+        <div class="col-2 d-flex justify-content-center mt-4">
+          <i class="fa-solid fa-location-dot fa-2xl" style="color: #0a0a0a;"></i>
+        </div>
+      </div>
+    </div>
+
     <div class="col-12 mb-4 mt-2 card-custom" id="card-1">
       <div class="img-div">
         <img src="./assets/img/teste1.png" alt="recife antigo">
