@@ -15,11 +15,11 @@
 }
 
 .img-div {
-  width: 90%;
+  max-height: 280px;
 }
 
 .img-div img {
-  object-fit: fill;  
+  object-fit: cover;  
 }
 
 .info-div {
@@ -39,7 +39,7 @@
   justify-content: start;
   background-color: var(--main-color);
   width: 90%;
-  height: 24px;
+  max-height: 50px;
   border-radius: 0px 16px 16px 0px;
 }
 
