@@ -1,0 +1,124 @@
+ h1 {
+     text-align: center;
+     left: 165px;
+     top: 53px;
+     position: absolute;
+     width: 72px;
+     height: 10px;
+     font-size: 18px;
+     font-family: 'Khula';
+     font-style: normal;
+     font-weight: 700;
+     line-height: 10px;
+     color: white;
+ }
+
+ .col-4 {
+     align-items: center;
+     position: absolute;
+     width: 70px;
+     height: 68px;
+     left: 166px;
+     top: 83px;
+ }
+
+ .header .header-row1 {
+     margin-top: 30px;
+     position: absolute;
+     width: 23px;
+     height: 2px;
+     left: 18px;
+     top: 20px;
+ }
+
+ body {
+     color: black;
+ }
+
+
+ .text-on-line {
+     align-items: center;
+     width: 390px;
+     height: 32px;
+     left: 0px;
+     top: 207px;
+     background: #D9D9D9;
+     padding: 10px;
+     font-family: 'Khula';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 15px;
+     color: #B66E6F;
+ }
+
+ .text-on-line1 {
+
+     width: 390px;
+     height: 32px;
+     left: 0px;
+     top: 426px;
+     background: #D9D9D9;
+     padding: 10px;
+     font-family: 'Khula';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 15px;
+     color: #B66E6F;
+ }
+
+ .filter_list1 {
+     font-family: 'Khula';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 10px;
+ }
+
+ .filter_list2 {
+     font-family: 'Khula';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 10px;
+ }
+
+ input[type="checkbox"].checked {
+     background-color: #b66e6f;
+ }
+
+
+ input[type="checkbox"] {
+     appearance: none;
+     -webkit-animation: normal;
+     box-sizing: border-box;
+     width: 30px;
+     height: 26px;
+     left: 52px;
+     top: 258px;
+     background: #FFFFFF;
+     border: 1px solid #B66E6F;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+.botao-aplicar {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 16px 30px;
+     gap: 10px;
+
+     position: absolute;
+     width: 280px;
+     height: 42px;
+     left: 55px;
+     top: 742px;
+
+     background: rgba(189, 56, 61, 0.62);
+     border-radius: 20px;
+
+     color: #FFFFFF;
+
+ }

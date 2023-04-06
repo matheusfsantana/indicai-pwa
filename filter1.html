@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Foto-Senac</title>
+</head>
+
+
+
+<body>
+  <div class="container">
+    <header class="row header">
+      <div class="filtros">
+        <div class="d-flex align-items-center justify-content-center header-row1">
+          <div class="col-4Icon">
+            <img src="./assets/img/arrowleft.png" alt="arrow letf header filtros">
+          </div>
+        </div>
+        <h1>FILTROS</h1>
+      </div>
+      <div class="col-4">
+        <img src="./assets/img/camera.png" alt="camera filtros">
+      </div>
+    </header>
+  </div>
+  <br>
+  
+
+  
+ 
+  <div class="content" >
+    <div class="text-on-line">LOCAIS
+    </div>
+    <br>
+      <section class="filter_list1 col-12 "> 
+      <label><input type="checkbox" name="locais" value="recife">  Recife</label><br>
+      <label><input type="checkbox" name="locais" value="olinda">  Olinda</label><br>
+      <label><input type="checkbox" name="locais" value="igarassu"> Igarassu</label><br>
+    </section>
+    <br>
+    <div class="text-on-line1">ESTILOS</div>
+        <br>
+        <section class="filter_list2 col-12">
+        <label><input type="checkbox" name="estilos" value="natureza"> Natureza</label><br>
+        <label><input type="checkbox" name="estilos" value="alimentacao"> Alimentacao</label><br>
+        <label><input type="checkbox" name="estilos" value="fotosderua"> Fotos de Rua</label><br>
+        <label><input type="checkbox" name="estilos" value="espacosculturaiselazer"> Espacos Culturais e Lazer</label><br>
+        <label><input type="checkbox" name="estilos" value="poresdesol"> Pores do Sol</label><br>
+        <label><input type="checkbox" name="estilos" value="praias"> Praias</label><br>
+      </section>
+    
+  </div>
+
+  
+  <script> 
+  var checkbox = document.querySelector('input[type="checkbox"]');
+  checkbox.addEventListener('click', function() {
+    if (checkbox.checked) {
+      checkbox.classList.add('checked');
+    } else {
+      checkbox.classList.remove('checked');
+    }
+  });
+  </script>
+
+
+
+<button class="botao-aplicar">Aplicar</button>
+
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+</body>
