@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+
+
   <title>Foto-Senac</title>
 </head>
 <body>
@@ -28,14 +30,16 @@
         </div>
       </div>
 
-      <div class="container mb-2">
-        <div class="col-12 input-group bg-white rounded-pill">
-          <div class="input-group-prepend">
-            <button class="btn border-right" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
-          </div>
-          <input class="form-control border-0" type="text" placeholder="Insira sua pesquisa aqui" aria-label="default input example">
+      <form>
+        <div class="container input-group mb-3">
+          <input type="text" class="form-control" placeholder="Insira sua busca aqui" aria-label="text filter" aria-describedby="submitButton" id="textField">
+          <button class="btn btn-outline-secondary" type="submit" id="submitButton">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </div>
-      </div>
+      </form>
+      
+
   </header>
 
   <div class="container mb-2 mt-2">

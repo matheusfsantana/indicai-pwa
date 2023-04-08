@@ -1,8 +1,9 @@
-const cardList = document.querySelector('#card-list')
+const submitButton = document.querySelector('#submitButton');
+const cardList = document.querySelector('#card-list');
+
 
 const res = await fetch('../../banco_fake.json');
-const data = await res.json()
-console.log(data);
+const data = await res.json();
 
 const renderData = () => {
   data.map((item) => {
@@ -33,8 +34,24 @@ const renderData = () => {
   })  
 }
 
-renderData()
+//renderData()
 
+
+
+submitButton.addEventListener('click', (e) => {
+  e.preventDefault();
+  const formField = document.querySelector('#textField').value;
+  
+  const dataFilterd = data.filter((object, index) => {
+    const [id, url, categoria, local, descricao] = Object.entries(object);
+    
+    if (formField === categoria[1] || formField === local[1]) {
+      return object
+    }
+  })
+
+  console.log(dataFilterd)
+})
 
 
 
