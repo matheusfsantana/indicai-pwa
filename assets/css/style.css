@@ -2,7 +2,6 @@
 @import url("./header.css");
 @import url("./btn-filter.css");
 @import url("./cards.css"); 
-@import url("./filter.css");
 
 :root {
   --main-color: #B66E6F;
