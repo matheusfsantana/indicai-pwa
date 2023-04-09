@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Foto-Senac</title>
+</head>
+
+<body>
+  <header class="row header justify-content-center">
+    <div class="header-row1">
+      <div>
+        <h1>FILTROS</h1>
+      </div>
+      <div>
+        <img src="./assets/img/camera.png" alt="back arrow">
+      </div>
+     
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="text-on-line mt-4">LOCAIS</div>
+    <section class="filter_list mt-2 ml-3">
+      <label><input type="checkbox" name="locais" value="recife"> Recife</label><br>
+      <label><input type="checkbox" name="locais" value="olinda"> Olinda</label><br>
+      <label><input type="checkbox" name="locais" value="igarassu"> Igarassu</label><br>
+    </section>
+    <div class="text-on-line mt-4">ESTILOS</div>
+    <section class="filter_list mt-2 ml-3">
+      <label><input type="checkbox" name="estilos" value="natureza"> Natureza</label><br>
+      <label><input type="checkbox" name="estilos" value="alimentacao"> Alimentacao</label><br>
+      <label><input type="checkbox" name="estilos" value="fotosderua"> Fotos de Rua</label><br>
+      <label><input type="checkbox" name="estilos" value="espacosculturaiselazer"> Espacos Culturais e Lazer</label><br>
+      <label><input type="checkbox" name="estilos" value="poresdesol"> Pores do Sol</label><br>
+      <label><input type="checkbox" name="estilos" value="praias"> Praias</label><br>
+    </section>
+  </div>
+
+  <div class="row justify-content-center mt-4">
+    <button class="botao-aplicar">APLICAR</button>
+  </div>
+
+  <script>
+    var checkbox = document.querySelector('input[type="checkbox"]');
+    checkbox.addEventListener('click', function () {
+      if (checkbox.checked) {
+        checkbox.classList.add('checked');
+      } else {
+        checkbox.classList.remove('checked');
+      }
+    });
+  </script>
+
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+</body>
