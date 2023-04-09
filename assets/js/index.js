@@ -1,12 +1,15 @@
+
 const submitButton = document.querySelector('#submitButton');
 const cardList = document.querySelector('#card-list');
 
-
+// Dados do DB
 const res = await fetch('../../banco_fake.json');
 const data = await res.json();
 
-const renderData = () => {
-  data.map((item) => {
+// Rendereiza na Home quando abre o app
+const renderData = (listOfObjects) => {
+  cardList.innerHTML = ''
+  listOfObjects.map((item) => {
 
     cardList.innerHTML += `
       <div class="col-12 mb-4 mt-2 card-custom" id="card-${item.id}">
@@ -34,23 +37,26 @@ const renderData = () => {
   })  
 }
 
-//renderData()
+renderData(data);
 
 
-
+// Função de click do botao de filtro da home
 submitButton.addEventListener('click', (e) => {
   e.preventDefault();
   const formField = document.querySelector('#textField').value;
   
-  const dataFilterd = data.filter((object, index) => {
+  const dataFiltered = data.filter((object, index) => {
     const [id, url, categoria, local, descricao] = Object.entries(object);
-    
-    if (formField === categoria[1] || formField === local[1]) {
-      return object
+
+    const regex = new RegExp(`\\b${formField}\\w*\\b`, 'gi');
+    if (regex.test(categoria[1]) || regex.test(local[1])) {
+      return object;
     }
   })
 
-  console.log(dataFilterd)
+  console.log(dataFiltered)
+  renderData(dataFiltered);
+  
 })
 
 
