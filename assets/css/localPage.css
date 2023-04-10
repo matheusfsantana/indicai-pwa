@@ -1,0 +1,39 @@
+.arrow-box {
+  height: 36px;
+}
+
+.info-area {
+  margin-bottom: 24px;
+  /* border: 1px solid black; */
+}
+
+.title-area {
+  height: 36px;
+  background-color: var(--main-color);
+  color: white;
+  margin: 16px 0;
+}
+
+.title-area h4 {
+  line-height: 42px;
+}
+
+.text-area {
+  padding-left: 8px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.info-area .text-area .category-card {
+  width: 120px;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: 400;
+}
+
+.text-area p {
+  font-weight: 400;
+}
+

@@ -12,8 +12,8 @@ const renderData = (listOfObjects) => {
   listOfObjects.map((item) => {
 
     cardList.innerHTML += `
-      <div class="col-12 mb-4 mt-2 card-custom" id="card-${item.id}">
-        <div class="col-12 d-flex justify-content-center img-div">
+      <div class="col-12 mb-4 mt-2 card-custom">
+        <div class="col-12 d-flex justify-content-center img-div" id="card-${item.id}">
           <img src="${item.url}" alt="${item.descricao} width:{140px}">
         </div>
 
@@ -49,7 +49,7 @@ submitButton.addEventListener('click', (e) => {
     const [id, url, categoria, local, descricao] = Object.entries(object);
 
     const regex = new RegExp(`\\b${formField}\\w*\\b`, 'gi');
-    if (regex.test(categoria[1]) || regex.test(local[1])) {
+    if (regex.test(categoria[1]) || regex.test(local[1]) || regex.test(descricao[1])) {
       return object;
     }
   })
@@ -58,6 +58,8 @@ submitButton.addEventListener('click', (e) => {
   renderData(dataFiltered);
   
 })
+
+/* ---------------------- LOCAL PAGE -------------------------     */
 
 
 
