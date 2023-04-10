@@ -16,3 +16,20 @@
   text-decoration: none;
   font-family: 'Khula', sans-serif;
 }
+
+.home-footer {
+  display: block;
+  color: #FCF3F3;
+  font-size: 15px;
+  position: absolute;
+  font-style: normal;
+  font-family: 'Roboto';
+  align-items: center;
+  display: flex;
+  text-align: center;
+  letter-spacing: -0.408px;
+}
+
+:not(.home) .home-footer { /*para o footer só aparecer na tela inical do pwa! favor não alterar.*/
+  display: none;
+}
