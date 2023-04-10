@@ -31,7 +31,7 @@ const renderData = () => {
         </div>
       </div>
     `
-  })  
+  })
 }
 
 //renderData()
@@ -41,10 +41,10 @@ const renderData = () => {
 submitButton.addEventListener('click', (e) => {
   e.preventDefault();
   const formField = document.querySelector('#textField').value;
-  
+
   const dataFilterd = data.filter((object, index) => {
     const [id, url, categoria, local, descricao] = Object.entries(object);
-    
+
     if (formField === categoria[1] || formField === local[1]) {
       return object
     }
@@ -53,5 +53,28 @@ submitButton.addEventListener('click', (e) => {
   console.log(dataFilterd)
 })
 
+//Geolocalização
+//permissão de localização
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(function (position) {
+    var lat = position.coords.latitude;
+    var lon = position.coords.longitude;
+    console.log("Latitude: " + lat + ", Longitude: " + lon);
+    
+    const apiKey = "a8a8ef7989b9405b9c8e59cad82e987a"
+
+    var url = `https://api.geoapify.com/v1/geocode/reverse?lat=${lat}&lon=${lon}&apiKey=${apiKey}`;
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        var address = data.features[0].properties.city;  
+        document.getElementById("address").innerHTML = address;
+      })
+      .catch(error => console.error(error));
+  });
+} else {
+  console.log("Geolocation is not supported by this browser.");
+}
 
 
