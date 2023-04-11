@@ -27,7 +27,7 @@
      line-height: 10px;
  }
 
- input[type="checkbox"].checked {
+ input[type="checkbox"]:checked {
      background-color: #b66e6f;
  }
 

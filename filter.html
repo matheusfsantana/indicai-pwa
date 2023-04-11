@@ -33,38 +33,31 @@
   </header>
 
   <div class="content">
+    <form>
+
+    
     <div class="text-on-line mt-4">LOCAIS</div>
-    <form class="filter_list mt-2 ml-3">
+    <div class="filter_list mt-2 ml-3">
       <label><input type="checkbox" name="locais" value="recife"> Recife</label><br>
       <label><input type="checkbox" name="locais" value="olinda"> Olinda</label><br>
       <label><input type="checkbox" name="locais" value="igarassu"> Igarassu</label><br>
-    </form>
+    </div>
 
     <div class="text-on-line mt-4">ESTILOS</div>
-    <form class="filter_list mt-2 ml-3">
+    <div class="filter_list mt-2 ml-3">
       <label><input type="checkbox" name="estilos" value="natureza"> Natureza</label><br>
       <label><input type="checkbox" name="estilos" value="alimentacao"> Alimentacao</label><br>
       <label><input type="checkbox" name="estilos" value="fotosderua"> Fotos de Rua</label><br>
       <label><input type="checkbox" name="estilos" value="espacosculturaiselazer"> Espacos Culturais e Lazer</label><br>
       <label><input type="checkbox" name="estilos" value="poresdesol"> Pores do Sol</label><br>
       <label><input type="checkbox" name="estilos" value="praias"> Praias</label><br>
-    </form>
   </div>
 
   <div class="row justify-content-center mt-4">
-    <button class="botao-aplicar">APLICAR</button>
+    <button type="submit" class="botao-aplicar">APLICAR</button>
   </div>
+</form>
 
-  <script>
-    var checkbox = document.querySelector('input[type="checkbox"]');
-    checkbox.addEventListener('click', function () {
-      if (checkbox.checked) {
-        checkbox.classList.add('checked');
-      } else {
-        checkbox.classList.remove('checked');
-      }
-    });
-  </script>
 
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/jquery.min.js"></script>
