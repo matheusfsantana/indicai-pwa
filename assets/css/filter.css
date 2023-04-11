@@ -45,7 +45,7 @@
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  }
 
-.botao-aplicar {
+ .botao-aplicar {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -54,6 +54,15 @@
      height: 42px;
      background: rgba(189, 56, 61, 0.62);
      border-radius: 20px;
-     border:none;
+     border: none;
      color: #FFFFFF;
+ }
+
+ .left-arrow {
+     position: absolute;
+     width: 24px;
+     height: 24px;
+     left: 18px;
+     top: 45px;
+
  }
