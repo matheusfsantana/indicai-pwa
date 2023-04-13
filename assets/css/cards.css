@@ -23,11 +23,12 @@
 }
 
 .img-div {
-  max-height: 280px;
+  width: 100vw;
 }
 
 .img-div img {
-  object-fit: cover;  
+  object-fit: cover;
+  width: 100%;  
 }
 
 .info-div {

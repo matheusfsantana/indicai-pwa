@@ -19,9 +19,9 @@ const renderData = (listOfObjects) => {
   listOfObjects.map((item) => {
 
     cardList.innerHTML += `
-      <div class="col-12 mb-4 mt-2 card-custom" id="card-${item.id}">
-        <div class="col-12 d-flex justify-content-center img-div">
-          <img src="${item.url}" alt="${item.descricao} width:{140px}">
+      <div class="mb-4 mt-2 card-custom" id="card-${item.id}">
+        <div class="img-div">
+          <img src="${item.url}" alt="${item.descricao}">
         </div>
         <div class="row mt-2 info-div">
           <div class="col-10 list-info">
