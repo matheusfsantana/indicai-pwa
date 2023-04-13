@@ -48,19 +48,31 @@ renderData(data);
 document.addEventListener('click', function(event) {
   var minhaDiv = event.target.closest('.minhaDiv.mb-4.mt-2.card-custom');
   if (minhaDiv) {
-
     var value = parseInt(minhaDiv.id.split('-')[1]);
-    var url = data[value-1].url;
+    var arrayDeObjetos = data;
+    var url,descricao,categoria,local;
+    for(var i = 0; i< arrayDeObjetos.length; i++)
+    {
+      if(arrayDeObjetos[i].id === value)
+      {
+        url = arrayDeObjetos[i].url;
+        descricao = arrayDeObjetos[i].descricao;
+        categoria = arrayDeObjetos[i].categoria;
+        local = arrayDeObjetos[i].local;
+
+      }
+    }
+    
     var modal = document.querySelector('#myModal');
-    modal.querySelector('.modal-title').innerHTML = data[value-1].local;
+    modal.querySelector('.modal-title').innerHTML = local;
     modal.querySelector('.modal-body').innerHTML = 
-    `<div class="img-div-modal"><img src="${data[value-1].url}" alt="${data[value-1].descricao}"></div> 
+    `<div class="img-div-modal"><img src="${url}" alt="${descricao}"></div> 
     <div class="text-on-line mt-4">DESCRIÇÃO</div>
-    <div><p>${data[value-1].descricao}</p></div>
+    <div><p>${descricao}</p></div>
     <div class="text-on-line mt-4">CATEGORIA</div>
-    <div><p>${data[value-1].categoria}</p></div>
+    <div><p>${categoria}</p></div>
     <div class="text-on-line mt-4">LOCALIZAÇÃO</div>
-    <div><p>${data[value-1].local}</p></div>`;
+    <div><p>${local}</p></div>`;
     
     $(modal).modal('show');
   }
