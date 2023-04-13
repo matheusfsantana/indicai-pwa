@@ -85,19 +85,19 @@ const openFilterContent = () => {
     <form id="form-filter-options" >
       <div class="text-on-line mt-4">LOCAIS</div>
       <div class="filter_list mt-2 ml-3">
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="locais" value="recife"> Recife</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="locais" value="olinda"> Olinda</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="locais" value="igarassu"> Igarassu</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="locais" value="Recife"> Recife</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="locais" value="Olinda"> Olinda</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="locais" value="Igarassu"> Igarassu</label><br>
       </div>
 
       <div class="text-on-line mt-4">ESTILOS</div>
       <div class="filter_list mt-2 ml-3">
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2 mr-2" name="estilos" value="natureza"> Natureza</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="alimentacao"> Alimentacao</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="fotos de rua"> Fotos de Rua</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="espaços culturais e lazer"> Espacos Culturais e Lazer</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="pores do sol"> Pores do Sol</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="praias"> Praias</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2 mr-2" name="estilos" value="Natureza"> Natureza</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="Alimentacao"> Alimentacao</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="Fotos de Rua"> Fotos de Rua</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="Espaços Culturais e lazer"> Espacos Culturais e Lazer</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="Pores do Sol"> Pores do Sol</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="Praias"> Praias</label><br>
       </div>
 
       <div class="row justify-content-center mt-4">

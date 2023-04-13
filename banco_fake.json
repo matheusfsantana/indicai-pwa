@@ -32,7 +32,7 @@
     "url": "https://odis.homeaway.com/odis/listing/1ceb1540-16d8-4f0f-9afa-504b99a02dc9.f6.jpg",
     "categoria": "Espaços culturais e lazer",
     "local": "Museu da Cidade do Recife - Forte das Cinco Pontas",
-    "descrição": "Foi instalado em 1982, Forte de São Tiago das Cinco Pontas, na zona sul da cidade e faz parte da Secretaria de Cultura da Prefeitura do Recife. Desde a sua criação, o museu opera em uma construção portuguesa de pedra e cal construída por cima do forte holandês, feito de madeira e terra."
+    "descricao": "Foi instalado em 1982, Forte de São Tiago das Cinco Pontas, na zona sul da cidade e faz parte da Secretaria de Cultura da Prefeitura do Recife. Desde a sua criação, o museu opera em uma construção portuguesa de pedra e cal construída por cima do forte holandês, feito de madeira e terra."
   },
   {
     "id": 2,
@@ -74,21 +74,21 @@
     "url": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/10025_173718519452574_1591565244_n.jpeg?quality=70&strip=info&w=925",
     "categoria": "Espaços culturais e lazer",
     "local": "Fundação Gilberto Freyre",
-    "descrição": "Casa onde viveu o escritor e pensador (1900-1987), de 1941 até sua morte. Entre setembro e março, às quartas, há passeio noturno (R$ 30) inspirado nas histórias sobrenaturais do livro Assombrações do Recife Velho (ligue para confirmar presença)."
+    "descricao": "Casa onde viveu o escritor e pensador (1900-1987), de 1941 até sua morte. Entre setembro e março, às quartas, há passeio noturno (R$ 30) inspirado nas histórias sobrenaturais do livro Assombrações do Recife Velho (ligue para confirmar presença)."
   },
   {
     "id": 12,
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Oficina_Cer%C3%A2mica_Francisco_Brennand_08.jpg/800px-Oficina_Cer%C3%A2mica_Francisco_Brennand_08.jpg",
     "categoria": "Espaços culturais e lazer",
     "local": "Oficina Cerâmica Francisco Brennand",
-    "descrição": "Complexo monumental — museu e ateliê — com aproximadamente 2 mil obras, entre esculturas, murais, paineis, pinturas, desenhos e objetos cerâmicos. A principal temática da obra de Francisco Brennand é a origem da vida e a eternidade das coisas."
+    "descricao": "Complexo monumental — museu e ateliê — com aproximadamente 2 mil obras, entre esculturas, murais, paineis, pinturas, desenhos e objetos cerâmicos. A principal temática da obra de Francisco Brennand é a origem da vida e a eternidade das coisas."
   },
   {
     "id": 13,
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Instituto_Ricardo_Brennand.jpg/600px-Instituto_Ricardo_Brennand.jpg",
     "categoria": "Espaços culturais e lazer",
     "local": "Instituto Ricardo Brennand",
-    "descrição": "Castelo de Brennand, é uma instituição cultural brasileira sem fins lucrativos localizada na cidade do Recife, capital do estado de Pernambuco. Foi eleito o melhor museu da América do Sul pelo site de viagens TripAdvisor."
+    "descricao": "Castelo de Brennand, é uma instituição cultural brasileira sem fins lucrativos localizada na cidade do Recife, capital do estado de Pernambuco. Foi eleito o melhor museu da América do Sul pelo site de viagens TripAdvisor."
   },
   {
     "id": 3,
@@ -102,112 +102,112 @@
     "url": "https://th.bing.com/th/id/OIP.z7aQQfRsv5G4CYvh6g1KxgHaEt?pid=ImgDet&rs=1",
     "categoria": "Espaços culturais e lazer",
     "local": "Museu do Homem do Nordeste",
-    "descrição": "O Museu do Homem do Nordeste – Muhne – é um órgão federal (vinculado à Fundação Joaquim Nabuco/Ministério da Educação), que reúne acervos que revelam a pluralidade das culturas negras, indígenas e brancas desde nossas origens até os diferentes desdobramentos e misturas que formam o que hoje é chamado genericamente de cultura brasileira."
+    "descricao": "O Museu do Homem do Nordeste – Muhne – é um órgão federal (vinculado à Fundação Joaquim Nabuco/Ministério da Educação), que reúne acervos que revelam a pluralidade das culturas negras, indígenas e brancas desde nossas origens até os diferentes desdobramentos e misturas que formam o que hoje é chamado genericamente de cultura brasileira."
   },
   {
     "id": 15,
     "url": "https://th.bing.com/th/id/R.f2749b183fe943294b3c6ededdf1637d?rik=DfAuRnAuVmmkmg&riu=http%3a%2f%2fguiaviajarmelhor.com.br%2fwp-content%2fuploads%2f2016%2f04%2f15643407385_2af4630335_k.jpg&ehk=edXScrJ0gpw3AXnZDNae4XAZdktY7RWKnX9sQi95K7A%3d&risl=&pid=ImgRaw&r=0",
     "categoria": "Espaços culturais e lazer",
     "local": "Museu Cais do Sertão",
-    "descrição": "O Museu Cais do Sertão é um museu interativo sobre o Sertão e Luiz Gonzaga localizado na cidade do Recife, capital de Pernambuco, Brasil. Foi eleito um dos vinte melhores museus da América do Sul em 2015 "
+    "descricao": "O Museu Cais do Sertão é um museu interativo sobre o Sertão e Luiz Gonzaga localizado na cidade do Recife, capital de Pernambuco, Brasil. Foi eleito um dos vinte melhores museus da América do Sul em 2015 "
   },
   {
     "id": 16,
     "url": "https://i.pinimg.com/originals/9c/39/44/9c3944e75c6d2f8cb288bd3b4cd7b10a.jpg",
     "categoria": "Espaços culturais e lazer",
     "local": "Paço do Frevo",
-    "descrição": "O Paço do Frevo é um espaço cultural dedicado à difusão, pesquisa, lazer e formação nas áreas da dança e música do frevo localizado na cidade do Recife, capital de Pernambuco, Brasil. Surgiu através de uma parceria entre a Prefeitura do Recife, a Fundação Roberto Marinho, o IPHAN e o Governo Federal."
+    "descricao": "O Paço do Frevo é um espaço cultural dedicado à difusão, pesquisa, lazer e formação nas áreas da dança e música do frevo localizado na cidade do Recife, capital de Pernambuco, Brasil. Surgiu através de uma parceria entre a Prefeitura do Recife, a Fundação Roberto Marinho, o IPHAN e o Governo Federal."
   },
   {
     "id": 17,
     "url": "https://th.bing.com/th/id/R.4f911c0ac7ef355c116dfa2adf9eeb38?rik=VuGtHCgwWqIirQ&riu=http%3a%2f%2fvisit.recife.br%2fwp-content%2fuploads%2f2017%2f10%2farte-destaque-gabinete-1.jpg&ehk=McBJkG37XqelydspUjaqRVFKC70zdIlHwCN8%2fzzxLl8%3d&risl=&pid=ImgRaw&r=0",
     "categoria": "Espaços culturais e lazer",
     "local": "Gabinete Português de Leitura de Pernambuco",
-    "descrição": "Biblioteca e centro cultural lusófono localizado na cidade do Recife, capital de Pernambuco, Brasil. Dentre os três gabinetes portugueses de leitura existentes no Brasil, é o segundo mais antigo e possui o segundo maior acervo, após o gabinete fluminense."
+    "descricao": "Biblioteca e centro cultural lusófono localizado na cidade do Recife, capital de Pernambuco, Brasil. Dentre os três gabinetes portugueses de leitura existentes no Brasil, é o segundo mais antigo e possui o segundo maior acervo, após o gabinete fluminense."
   },
   {
     "id": 18,
     "url": "https://th.bing.com/th/id/OIP.E2J1J45ADyu-zCoVhe1R-wHaEg?pid=ImgDet&rs=1",
     "categoria": "Espaços culturais e lazer",
     "local": "Museu da Abolição",
-    "descrição": "O Museu da Abolição — Centro de Referência da Cultura Afro-Brasileira é um museu localizado na cidade do Recife, capital de Pernambuco, Brasil. Vinculado ao Instituto Brasileiro de Museus (IBRAM) e ao Ministério da Cultura, é um dos raros museus no país a contemplar esta parte da história, e tem suas ações norteadas pelos princípios da nova museologia e da sociomuseologia."
+    "descricao": "O Museu da Abolição — Centro de Referência da Cultura Afro-Brasileira é um museu localizado na cidade do Recife, capital de Pernambuco, Brasil. Vinculado ao Instituto Brasileiro de Museus (IBRAM) e ao Ministério da Cultura, é um dos raros museus no país a contemplar esta parte da história, e tem suas ações norteadas pelos princípios da nova museologia e da sociomuseologia."
   },
   {
     "id": 19,
     "url": "https://i.pinimg.com/originals/12/04/73/1204737d1cf8d8a3e80b8eed7bdef57f.jpg",
     "categoria": "Espaços culturais e lazer",
     "local": "Estação Central Capiba/Museu do Trem",
-    "descrição": "Museu do Trem ou Estação Central Capiba/Museu do Trem é um museu ferroviário da cidade do Recife, capital do estado brasileiro de Pernambuco. É considerado o primeiro do Brasil e o segundo do gênero da América Latina."
+    "descricao": "Museu do Trem ou Estação Central Capiba/Museu do Trem é um museu ferroviário da cidade do Recife, capital do estado brasileiro de Pernambuco. É considerado o primeiro do Brasil e o segundo do gênero da América Latina."
   },
   {
     "id": 21,
     "url": "https://th.bing.com/th/id/OIP.0pe5_FTN6BHjVR__6LIDxAHaE8?pid=ImgDet&rs=1",
     "categoria": "Espaços culturais e lazer",
     "local": "Museu do Estado de Pernambuco",
-    "descrição": "O Museu do Estado de Pernambuco (MEPE) é um museu localizado na cidade do Recife, capital de Pernambuco, no Brasil. Possui um grande e eclético acervo, com cerca de 12 mil itens abrangendo as áreas de história, arte, antropologia e etnografia."
+    "descricao": "O Museu do Estado de Pernambuco (MEPE) é um museu localizado na cidade do Recife, capital de Pernambuco, no Brasil. Possui um grande e eclético acervo, com cerca de 12 mil itens abrangendo as áreas de história, arte, antropologia e etnografia."
   },
   {
     "id": 22,
     "url": "https://th.bing.com/th/id/R.3fd7f716a547088b251a8903ecf26672?rik=49kGxBqKzeexHg&pid=ImgRaw&r=0",
     "categoria": "Espaços culturais e lazer",
     "local": "Museu de Arte Moderna Aloisio Magalhães",
-    "descrição": "O Museu de Arte Moderna Aloisio Magalhães ou MAMAM é um museu localizado na cidade do Recife, capital do estado brasileiro de Pernambuco. É considerado um centro de referência da produção moderna e contemporânea das artes visuais. Através da divulgação, registro e reflexão sobre a arte do presente e suas referências históricas, o MAMAM tem contribuído para a formação cultural do público e para o adensamento do meio institucional e artístico do Recife."
+    "descricao": "O Museu de Arte Moderna Aloisio Magalhães ou MAMAM é um museu localizado na cidade do Recife, capital do estado brasileiro de Pernambuco. É considerado um centro de referência da produção moderna e contemporânea das artes visuais. Através da divulgação, registro e reflexão sobre a arte do presente e suas referências históricas, o MAMAM tem contribuído para a formação cultural do público e para o adensamento do meio institucional e artístico do Recife."
   },
   {
     "id": 23,
     "url": "https://th.bing.com/th/id/R.188d23a7b5a8e83798bb5624846ab81c?rik=7E5T%2bzRVwHVmog&pid=ImgRaw&r=0",
     "categoria": "Espaços culturais e lazer",
     "local": "Caixa Cultural",
-    "descrição": "A Caixa Cultural Recife foi inaugurada em 2012 em um edifício anteriormente pertencente a instituições financeiras, como bancos e a Bolsa de Valores de Pernambuco e Paraíba, localizado defronte ao Marco Zero, no Recife Antigo. Com área de 2.650m², o edifício foi tombado pelo Patrimônio Nacional em 1998.[11][12] Possui dois pavimentos de galerias de arte, um teatro com 96 lugares, uma sala multimídia, duas salas para oficinas de arte-educação e amplo foyer."
+    "descricao": "A Caixa Cultural Recife foi inaugurada em 2012 em um edifício anteriormente pertencente a instituições financeiras, como bancos e a Bolsa de Valores de Pernambuco e Paraíba, localizado defronte ao Marco Zero, no Recife Antigo. Com área de 2.650m², o edifício foi tombado pelo Patrimônio Nacional em 1998.[11][12] Possui dois pavimentos de galerias de arte, um teatro com 96 lugares, uma sala multimídia, duas salas para oficinas de arte-educação e amplo foyer."
   },
   {
     "id": 24,
     "url": "https://revista.algomais.com/wp-content/uploads/2019/04/econus.jpg",
     "categoria": "Espaços culturais e lazer",
     "local": "Parque da Jaqueira",
-    "descrição": "Localizado na Zona Norte do Recife, em uma área repleta de opções de serviços, o entorno do Parque da Jaqueira também tem muito a oferecer. Os freqüentadores têm a sua disposição, por exemplo, o Cais da Jaqueira, livrarias, academias de ginásticas, galerias, lanchonetes, restaurantes e hospitais. Área completa voltada para lazer e prática de esportes Banheiros públicos feminino, masculino, infantil e para pessoas com mobilidade reduzida Estacionamento público com capacidade para 140 veículos Segurança realizada por um efetivo da Guarda Municipal e com o apoio de seis câmeras de videomonitoramento."
+    "descricao": "Localizado na Zona Norte do Recife, em uma área repleta de opções de serviços, o entorno do Parque da Jaqueira também tem muito a oferecer. Os freqüentadores têm a sua disposição, por exemplo, o Cais da Jaqueira, livrarias, academias de ginásticas, galerias, lanchonetes, restaurantes e hospitais. Área completa voltada para lazer e prática de esportes Banheiros públicos feminino, masculino, infantil e para pessoas com mobilidade reduzida Estacionamento público com capacidade para 140 veículos Segurança realizada por um efetivo da Guarda Municipal e com o apoio de seis câmeras de videomonitoramento."
   },
   {
     "id": 25,
     "url": "https://th.bing.com/th/id/R.c23010072c592ab391218d6618b612fd?rik=XByFworSyYg5QA&riu=http%3a%2f%2f1.bp.blogspot.com%2f_a2UppB54fFc%2fTKPSVJlH4AI%2fAAAAAAAAAiM%2fT1Y69Kxp5GM%2fs1600%2fTorre%2bde%2bCristal%2b-%2bBrennand%2b-%2bAxl%2bNascimento.jpg&ehk=unwNvjttzWmWDUPwZD29VlAm3%2fiRc%2f4G0tlFx1x2n1U%3d&risl=&pid=ImgRaw&r=0",
     "categoria": "Espaços culturais e lazer",
     "local": "Parque das Esculturas",
-    "descrição": "O Parque de Esculturas é composto por obras do artista plástico Francisco Brennand, e foi inaugurado como comemoração dos 500 anos de descobrimento do Brasil. Foi instalado sobre o molhe do porto. Tartarugas, pelicanos, ovos, maçarico, pássaros roca e sentinela guardam a principal obra do parque, a torre de cristal, inspirada em uma flor descoberta pelo paisagista Roberto Burle Marx. A travessia do Marco Zero até o parque funciona diariamente, das 7h às 17h."
+    "descricao": "O Parque de Esculturas é composto por obras do artista plástico Francisco Brennand, e foi inaugurado como comemoração dos 500 anos de descobrimento do Brasil. Foi instalado sobre o molhe do porto. Tartarugas, pelicanos, ovos, maçarico, pássaros roca e sentinela guardam a principal obra do parque, a torre de cristal, inspirada em uma flor descoberta pelo paisagista Roberto Burle Marx. A travessia do Marco Zero até o parque funciona diariamente, das 7h às 17h."
   },
   {
     "id": 26,
     "url": "https://media-cdn.tripadvisor.com/media/photo-s/05/c9/91/39/parque-dois-irmaos.jpg",
     "categoria": "Espaços culturais e lazer",
     "local": "Parque Estadual de Dois Irmãos - Zoológico de Recife",
-    "descrição": "O Parque Estadual Dois Irmãos tem uma área de 384,42 hectares, sendo 14 hectares ocupados pelo Zoológico do Recife. A reserva do Parque, considerada uma das maiores áreas de Mata Atlântica de Pernambuco."
+    "descricao": "O Parque Estadual Dois Irmãos tem uma área de 384,42 hectares, sendo 14 hectares ocupados pelo Zoológico do Recife. A reserva do Parque, considerada uma das maiores áreas de Mata Atlântica de Pernambuco."
   },
   {
     "id": 27,
     "url": "https://i.pinimg.com/originals/17/b2/1f/17b21fb0b7a363749fecb4d5dcc6e6c6.jpg",
     "categoria": "Espaços culturais e lazer",
     "local": "Praça de Casa Forte",
-    "descrição": "Primeiro grande projeto de jardim urbano de Roberto Burle Marx."
+    "descricao": "Primeiro grande projeto de jardim urbano de Roberto Burle Marx."
   },
   {
     "id": 28,
     "url": "https://i.pinimg.com/736x/78/28/fb/7828fbed8e7dec5ea030d6675fa1a291--carne.jpg",
     "categoria": "Alimentacao",
     "local": "Ilha da Kosta",
-    "descrição": "Carne de Sol com Queijo de Coalho - Hora do Almço."
+    "descricao": "Carne de Sol com Queijo de Coalho - Hora do Almço."
   },
   {
     "id": 29,
     "url": "https://ibis.accor.com/editorial/imagerie/article/bolo-de-rolo-8660_660x440.jpg",
     "categoria": "Alimentacao",
     "local": "Tio Pepe",
-    "descrição": "Recheado de delícias regionais com o famoso Bolo de Rolo."
+    "descricao": "Recheado de delícias regionais com o famoso Bolo de Rolo."
   },
   {
     "id": 30,
     "url": "https://ibis.accor.com/editorial/imagerie/article/receita-com-camarao-33f7_660x440.jpg",
     "categoria": "Alimentacao",
     "local": "PARRAXAXÁ",
-    "descrição": "No Parraxaxá você pode experimentar todas as gostosuras nordestinas em um buffet bem generoso que inclui muitas receitas típicas do Pernambuco. Buchada de bode com pirão, sarapatel, passando pelo famoso camarão na pitinga e finalizando com as tradicionais sobremesas pernambucanas, bolo souza leão, que é até patrimônio cultural e imaterial do estado."
+    "descricao": "No Parraxaxá você pode experimentar todas as gostosuras nordestinas em um buffet bem generoso que inclui muitas receitas típicas do Pernambuco. Buchada de bode com pirão, sarapatel, passando pelo famoso camarão na pitinga e finalizando com as tradicionais sobremesas pernambucanas, bolo souza leão, que é até patrimônio cultural e imaterial do estado."
   },
   {
     "id": 31,
