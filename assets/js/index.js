@@ -5,6 +5,7 @@ const cardList = document.querySelector('#card-list');
 const filtersApply = document.querySelector("#filters-apply");
 const filterOptions = document.querySelector("#filter-options");
 const filterContent = document.querySelector("#filter-content");
+
 let filterOptionsIsActive = false;
 let currentsInputsChecked = [];
 
@@ -43,6 +44,7 @@ const renderData = (listOfObjects) => {
 
 renderData(data);
 
+//CONTEUDO DO FILTRO
 const openFilterContent = () => {
   filterContent.innerHTML = '';
   filterContent.innerHTML = `
@@ -58,9 +60,9 @@ const openFilterContent = () => {
       <div class="filter_list mt-2 ml-3">
         <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2 mr-2" name="estilos" value="natureza"> Natureza</label><br>
         <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="alimentacao"> Alimentacao</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="fotosderua"> Fotos de Rua</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="espacosculturaiselazer"> Espacos Culturais e Lazer</label><br>
-        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="poresdesol"> Pores do Sol</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="fotos de rua"> Fotos de Rua</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="espaços culturais e lazer"> Espacos Culturais e Lazer</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="pores do sol"> Pores do Sol</label><br>
         <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="praias"> Praias</label><br>
       </div>
 
@@ -111,7 +113,6 @@ const insertFiltersTag = (listOfItens) => {
     filtersApply.innerHTML += `
       <div class="btn-filter btn btn-outline-success d-flex align-items-center justify-content-around px-3">
         <span>${item}</span>
-        <i class="fa-solid fa-xmark fa-xl" style="color: #000000;"></i>
       </div>
     `
   })
@@ -155,7 +156,7 @@ filterOptions.addEventListener('click', (e) => {
       const botaoAplicar = document.querySelector("#botao-aplicar");
       botaoAplicar.addEventListener('click', (e) => {
         e.preventDefault();
-        
+        filterOptionsIsActive = false;
         currentsInputsChecked = getFilterInputChecked();
         const dataFiltered = filterData(currentsInputsChecked, data);
         insertFiltersTag(currentsInputsChecked);
