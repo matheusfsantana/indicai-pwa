@@ -20,7 +20,7 @@ const renderData = (listOfObjects) => {
   listOfObjects.map((item) => {
 
     cardList.innerHTML += `
-      <div class="mb-4 mt-2 card-custom" id="card-${item.id}">
+      <div class="minhaDiv mb-4 mt-2 card-custom" id="card-${item.id}">
         <div class="img-div">
           <img src="${item.url}" alt="${item.descricao}">
         </div>
@@ -43,6 +43,28 @@ const renderData = (listOfObjects) => {
 }
 
 renderData(data);
+
+//GAMBIARRA MODAL KKASKDSKDAKDSK
+document.addEventListener('click', function(event) {
+  var minhaDiv = event.target.closest('.minhaDiv.mb-4.mt-2.card-custom');
+  if (minhaDiv) {
+
+    var value = parseInt(minhaDiv.id.split('-')[1]);
+    var url = data[value-1].url;
+    var modal = document.querySelector('#myModal');
+    modal.querySelector('.modal-title').innerHTML = data[value-1].local;
+    modal.querySelector('.modal-body').innerHTML = 
+    `<div class="img-div-modal"><img src="${data[value-1].url}" alt="${data[value-1].descricao}"></div> 
+    <div class="text-on-line mt-4">DESCRIÇÃO</div>
+    <div><p>${data[value-1].descricao}</p></div>
+    <div class="text-on-line mt-4">CATEGORIA</div>
+    <div><p>${data[value-1].categoria}</p></div>
+    <div class="text-on-line mt-4">LOCALIZAÇÃO</div>
+    <div><p>${data[value-1].local}</p></div>`;
+    
+    $(modal).modal('show');
+  }
+});
 
 //CONTEUDO DO FILTRO
 const openFilterContent = () => {
@@ -179,8 +201,6 @@ filterOptions.addEventListener('click', (e) => {
     filterOptionsIsActive = false;
   }
 })
-
-
 
 
 

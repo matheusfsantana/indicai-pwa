@@ -30,6 +30,16 @@
   letter-spacing: -0.408px;
 }
 
+.img-div-modal {
+  width: 20vw;
+}
+
+.img-div-modal img {
+  object-fit: cover;
+  width: 100%;  
+}
+
+
 :not(.home) .home-footer { /*para o footer só aparecer na tela inical do pwa! favor não alterar.*/
   display: none;
 }
