@@ -2,6 +2,13 @@
 const submitButton = document.querySelector('#submitButton');
 const cardList = document.querySelector('#card-list');
 
+const filtersApply = document.querySelector("#filters-apply");
+const filterOptions = document.querySelector("#filter-options");
+const filterContent = document.querySelector("#filter-content");
+let filterOptionsIsActive = false;
+let currentsInputsChecked = [];
+
+
 // Dados do DB
 const res = await fetch('../../banco_fake.json');
 const data = await res.json();
@@ -36,6 +43,83 @@ const renderData = (listOfObjects) => {
 
 renderData(data);
 
+const openFilterContent = () => {
+  filterContent.innerHTML = '';
+  filterContent.innerHTML = `
+    <form id="form-filter-options" >
+      <div class="text-on-line mt-4">LOCAIS</div>
+      <div class="filter_list mt-2 ml-3">
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="locais" value="recife"> Recife</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="locais" value="olinda"> Olinda</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="locais" value="igarassu"> Igarassu</label><br>
+      </div>
+
+      <div class="text-on-line mt-4">ESTILOS</div>
+      <div class="filter_list mt-2 ml-3">
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2 mr-2" name="estilos" value="natureza"> Natureza</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="alimentacao"> Alimentacao</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="fotosderua"> Fotos de Rua</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="espacosculturaiselazer"> Espacos Culturais e Lazer</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="poresdesol"> Pores do Sol</label><br>
+        <label class="d-flex align-items-center "><input type="checkbox" class="form-control mr-2" name="estilos" value="praias"> Praias</label><br>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        <button type="button" id="botao-aplicar">APLICAR</button>
+      </div>
+    </form>
+    `;
+}
+
+const closeFilterContent = () => {
+  filterContent.innerHTML = '';
+}
+
+const getFilterInputChecked = () => {
+  const formFilterOptions = document.querySelector("#form-filter-options");
+  let filterInputs = formFilterOptions.getElementsByTagName('input');
+  
+  let filterInputsChecked = [];
+  for (let i = 0; i < filterInputs.length; i++) {
+    let item = filterInputs[i];
+    if (item.type == "checkbox" && item.checked) {
+      filterInputsChecked.push(item.value);
+    }
+  }
+
+  return filterInputsChecked
+}
+
+const filterData = (listOfItens, data) => {
+  const dataFiltered = data.filter((object) => {
+    const [id, url, categoria, local, descricao] = Object.entries(object);
+
+    for(let i = 0; i < listOfItens.length; i++) {
+      let regex = new RegExp(`\\b${listOfItens[i]}\\w*\\b`, 'gi');
+      if (regex.test(categoria[1]) || regex.test(local[1]) || regex.test(descricao[1])) {
+        return object
+      }
+    }
+  })
+
+  return dataFiltered
+}
+
+const insertFiltersTag = (listOfItens) => {
+  filtersApply.innerHTML = '';
+  listOfItens.map((item) => {
+    filtersApply.innerHTML += `
+      <div class="btn-filter btn btn-outline-success d-flex align-items-center justify-content-around px-3">
+        <span>${item}</span>
+        <i class="fa-solid fa-xmark fa-xl" style="color: #000000;"></i>
+      </div>
+    `
+  })
+}
+
+const deleteAllFiltersTag = () => {
+  filtersApply.innerHTML = '';
+}
 
 // Função de click do botao de filtro da home
 submitButton.addEventListener('click', (e) => {
@@ -50,11 +134,54 @@ submitButton.addEventListener('click', (e) => {
       return object;
     }
   })
-
-  console.log(dataFiltered)
-  renderData(dataFiltered);
+  deleteAllFiltersTag();
+  if (dataFiltered.length === 0) {
+    cardList.innerHTML = `
+      <h4>Opss... Não encontramos nenhum resultado para essa busca</h4>
+      <h2>Tente novamente</h2>
+    `;
+  } else {
+    renderData(dataFiltered);
+  }
   
+});
+
+filterOptions.addEventListener('click', (e) => {
+  e.preventDefault();
+  
+  if (!filterOptionsIsActive) {
+    openFilterContent();
+    if (filterContent.innerHTML !== '') {
+      const botaoAplicar = document.querySelector("#botao-aplicar");
+      botaoAplicar.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        currentsInputsChecked = getFilterInputChecked();
+        const dataFiltered = filterData(currentsInputsChecked, data);
+        insertFiltersTag(currentsInputsChecked);
+      
+        if (dataFiltered.length === 0) {
+          cardList.innerHTML = `
+            <h4>Opss... Não encontramos nenhum resultado para essa busca</h4>
+            <h2>Tente novamente</h2>
+          `;
+        } else {
+          renderData(dataFiltered);
+        }
+        closeFilterContent();
+      });
+
+      filterOptionsIsActive = true;
+    }
+  } else {
+    closeFilterContent();
+    filterOptionsIsActive = false;
+  }
 })
+
+
+
+
 
 //Geolocalização
 //permissão de localização

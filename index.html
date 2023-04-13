@@ -42,12 +42,15 @@
 
   </header>
 
-  <div class="container mb-2 mt-2">
-    <button onclick="window.location.href='./filter.html';" type="button" class="btn btn-outline-dark btn-filter d-flex align-items-center justify-content-between px-3">
+  <div class="container mb-2 mt-2 ">
+    <button type="button" class="btn btn-outline-dark btn-filter d-flex align-items-center justify-content-between px-3" id="filter-options">
       <i class="fa-solid fa-filter" style="color: #b66e6f;"></i>
       Filtrar por...
     </button>
+    <div class='mt-2' id="filters-apply"></div>
   </div>
+
+  <div id="filter-content"></div>
 
   <div class="container mt-4 " id="card-list"></div>
 
