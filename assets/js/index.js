@@ -33,7 +33,7 @@ const renderData = (listOfObjects) => {
             </div>
           </div>
           <div class="col-2 d-flex justify-content-center mt-4">
-            <i class="fa-solid fa-location-dot fa-2xl" style="color: #0a0a0a;"></i>
+            <i class="fa-solid fa-location-dot fa-2xl" style="color: #b66e6f;"></i>
           </div>
         </div>
       </div>
